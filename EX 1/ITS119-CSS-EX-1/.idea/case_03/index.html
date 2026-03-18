@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="web, html, css, javascript, js, java, python">
+    <meta name="description" content="World best web development tutorials">
+    <meta name="author" content="IJSE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case 03</title>
+
+    <link rel="stylesheet" href="../assets/normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <style>
+        section {
+            width: 1000px;
+            height: 600px;
+            border: 3px solid black;
+            position: relative;
+
+        }
+
+        div {
+            width: 100px;
+            height: 50px;
+            border-radius: 30% ;
+            background-color: deepskyblue;
+            position: absolute;
+
+            animation-name: move;
+            animation-duration: 2000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes move {
+            0% {
+                left: 0;
+                top: 0;
+                transform: rotate(180deg);
+            }
+            25% {
+
+                left:900px;
+                top: 0;
+                transform: rotate(360deg);
+            }
+            50% {
+
+                left:900px;
+                top: 550px;
+            }
+            75% {
+                left: 0;
+                top:550px;
+            }
+            100% {
+                left: 0;
+                top: 0;
+
+            }
+        }
+
+    </style>
+</body>
+<body>
+
+<section>
+    <div></div>
+</section>
+
+</body>
